@@ -7,14 +7,25 @@ const HomeScreen = props => {
     <View>
       <Text style={styles.text}>Hi there!</Text>
       <Button
+        title="Go to the Components Demo"
         onPress={() => props.navigation.navigate("Components")}
-        title="Go to the Components Demo" />
+      />
       <Button
+        title="Go to the List Demo"
         onPress={() => props.navigation.navigate("List")}
-        title="Go to the List Demo"/>
+      />
       <Button
+        title="Go to the Image Demo"
         onPress={() => props.navigation.navigate("Image")}
-        title="Go to the Image Demo" />
+      />
+      <Button
+        title="Go to the Counter Demo"
+        onPress={() => props.navigation.navigate("Counter")}
+      />
+      <Button
+        title="Go to the Color Demo"
+        onPress={() => props.navigation.navigate("Color")}
+      />
     </View>
   );
 };
